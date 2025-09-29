@@ -73,7 +73,7 @@ function App() {
   return(
     <>
       <div className="banner">
-        {score === 1 ? <h1 className='win-banner'> You Win! 🎊 </h1> : (
+        {score === 12 ? <h1 className='win-banner'> You Win! 🎊 </h1> : (
           <>
             <div>
               <h2> Memory Game </h2>
